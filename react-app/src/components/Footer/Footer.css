@@ -1,0 +1,93 @@
+#footer-body{
+    background-image: linear-gradient(to right, rgba(87, 168, 255, 0.85) , rgb(35, 35, 35));
+    /* border-top: 1px solid rgb(185, 182, 182); */
+    position: fixed;
+    bottom: 0;
+    width: 105vw;
+    height: 8vh;
+    display: flex;
+    margin-left: -38px;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+#technologies-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    justify-content: start;
+    width: 30%;
+    /* border: 1px solid red; */
+    margin-left: 55px;
+}
+
+#technology-icons{
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    height: 40%;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tech {
+    font-size: 5px;
+}
+
+.footer-h3-title-div {
+    height: 50%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.fab{
+    font-size: 22px;
+}
+
+#creators-right {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    width: 30%;
+    margin-right: 100px;
+}
+
+#creator-item {
+    display: flex;
+    /* border: 0.5px solid rgba(255, 255, 255, 0.219); */
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+#creator-name {
+    font-size: 11px;
+    margin: 0px;
+}
+
+#github-icon {
+    color: white;
+    padding-bottom: 3px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.fa-github {
+    font-size: 25px;;
+}
+
+#profile-items-container {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 40%;
+}

@@ -1,0 +1,40 @@
+.profile-nav-span {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    gap: 40px;
+    height: 40px;
+    justify-content: flex-start;
+    /* border: 1px solid orange; */
+    padding-left: 20px;
+}
+
+.profile-nav-span a {
+    text-decoration: none;
+    color: rgb(116, 116, 118);
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.profile-nav-div {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(203, 203, 205);
+    width: 100vw;
+    margin-left: -8px;
+}
+
+.profile-nav-span-container {
+    width: 80%;
+    /* border: 1px solid blue; */
+}
+
+.active-link {
+    /* text-decoration: underline; */
+    /* color: blue; */
+    /* font-weight: 900; */
+    border-bottom: 2px solid rgb(87, 168, 255);;
+
+}

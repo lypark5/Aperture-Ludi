@@ -1,0 +1,14 @@
+#photo-form {
+  display: flex;
+  align-items: center;
+}
+
+#create-photo-title {
+    color: rgb(46, 147, 255);
+}
+
+#photo-name-input {
+  box-sizing: border-box;
+  font-size: 11;
+  padding: 5px;
+}

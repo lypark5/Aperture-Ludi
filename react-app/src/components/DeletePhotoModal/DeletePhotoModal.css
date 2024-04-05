@@ -1,0 +1,29 @@
+.delete-modal {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+  padding: 15px 20px 30px;
+}
+
+.yes-button {
+  background-color: rgb(87, 168, 255);
+  color: white;
+  border-radius: 17px;
+  border: none;
+  padding: 10px; 
+  width: 65%;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.no-button {
+  background-color: rgb(214, 233, 254);
+  color: rgb(87, 90, 95);
+  border-radius: 17px;
+  border: 1px solid rgba(87, 90, 95, 0.3);
+  padding: 10px; 
+  width: 65%;
+  font-size: 13px;
+  cursor: pointer;
+}

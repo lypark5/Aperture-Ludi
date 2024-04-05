@@ -1,0 +1,141 @@
+#create-whole-page {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    background-color: rgb(236, 243, 255);
+    /* background-color: #dae9fc; */
+    height: 105vh;
+    width: 105vw;
+    margin-left: -10px;
+}
+
+#create-meat {
+    display: flex;
+    margin-top: 50px;
+    width: 70%;
+    flex-direction: column;
+    margin-left: -30px;
+    /* border: 1px solid red; */
+}
+
+#create-album-h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(46, 147, 255);
+    /* border: 1px solid yellow; */
+}
+
+#album-form {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 243, 255);
+}
+
+#both-container {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid purple; */
+}
+
+#left-create {
+    /* border: 2px solid red; */
+    width: 30%;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+
+#left-create-80 {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 40px;
+    width: 80%;
+    /* border: 2px solid red; */
+}
+
+.album-titles {
+    color: rgb(111, 114, 128);
+    font-weight: bold;
+}
+
+#right-select-photos {
+    border: 2px solid grey;
+    /* border: 2px solid blue; */
+    box-shadow: 2px 2px 2px grey;
+    height: 490px;
+    overflow: scroll;
+    border-radius: 5px;
+    width: 70%;
+    background-color: rgb(252, 237, 245);
+    /* background-color: orange; */
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(252, 237, 245); 
+}
+
+.album-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+#select-photo {
+    padding-left: 13px;
+    padding-top: 40px;
+    color: rgb(46, 147, 255);
+    font-weight: bold;
+}
+
+#album-button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+    width: 100%;
+    margin: 60px 0px 100px;
+}
+
+#yes-album {
+    background-color: rgb(87, 168, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 17px;
+    border: none;
+    padding: 10px; 
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+}
+
+#no-album {
+    background-color: rgb(214, 233, 254);
+    color: rgb(87, 90, 95);
+    border-radius: 17px;
+    border: 1px solid rgba(87, 90, 95, 0.3);
+    padding: 10px; 
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+}
+
+
+

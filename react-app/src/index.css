@@ -1,0 +1,17 @@
+/* TODO Add site wide styles */
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.link{
+    cursor: pointer;
+}
+
+.errors {
+    color: red;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}

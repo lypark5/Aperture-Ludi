@@ -1,0 +1,44 @@
+#landing-page-background-div {
+    margin-bottom:-10px;
+    height: 105vh;
+    width: 105vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: -23px 0 0 -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inspiration {
+    color: white;
+    /* border: 1px solid white; */
+}
+
+#try {
+    /* border: 2px solid red; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+    gap: 20px;
+}
+
+#demo {
+    background-color: rgb(87, 168, 255);
+    color: white;
+    border-radius: 17px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#demo:hover{
+    color: #1a7897
+}
